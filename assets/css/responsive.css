@@ -4,23 +4,13 @@
     font-size: 14px !important;
     padding: 0 48px 0 48px !important;
   }
-}
-
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .main-menu {
-    float: left;
-    padding: 0 0 0 2% !important;
-  }
-  .main-header .logo a {
-    font-size: 27px !important;
-  }
-  .main-menu .main-menu-li {
-    margin-left: 9px !important;
+  .main-about-section {
+    height: 100vh !important;
   }
 }
+
+
+
 
 
 
@@ -175,6 +165,22 @@
 
 
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-menu {
+    float: left;
+    padding: 0 0 0 2% !important;
+  }
+  .main-header .logo a {
+    font-size: 27px !important;
+  }
+  .main-menu .main-menu-li {
+    margin-left: 9px !important;
+  }
+  .main-about-section {
+    height: 100vh !important;
+  }
+}
 
 
 
