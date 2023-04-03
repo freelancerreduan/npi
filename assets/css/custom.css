@@ -262,7 +262,8 @@ li{
     background: #3393ff !important;
   }
   ::placeholder {
-    color: white !important;
+    /* color: white !important; */
+    color: #beb5b5 !important;
     padding: 0 1%;
   }
   @-webkit-keyframes animate-loading {
@@ -345,23 +346,16 @@ li{
 }
 
 /* ................ Search Alamin Style */
-.modal-open .modal {
+.modal-open .modal-style {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+
 .modal {
   overflow: hidden!important;
   padding-right: 0!important;
 }
-.modal {
+.modal-style {
   position: fixed;
   top: 0;
   left: 0;
@@ -372,11 +366,11 @@ li{
   overflow: hidden;
   outline: 0;
 }
-.modal.show::before {
+.modal-style.show::before {
   animation: menu-animation .8s ease-out forwards;
   transform: scale(2) translateY(0);
 }
-.modal::before {
+.modal-style::before {
   content: "";
   position: absolute;
   top: 0;
@@ -393,7 +387,7 @@ li{
   overflow: hidden;
   z-index: 9;
 }
-.modal.show .close-btn {
+.modal-style.show .close-btn {
   transition-delay: .7s;
   opacity: 1;
   top: 50px;
@@ -417,7 +411,7 @@ li{
   transition: .5s;
   padding: 0;
 }
-.modal .modal-overlay {
+.modal-style .modal-overlay {
   overflow: auto;
   display: flex;
   justify-content: center;
@@ -426,7 +420,7 @@ li{
   height: 100%;
   position: relative;
 }
-.modal.popup-login-style .modal-dialog, .modal.popup-search-style .modal-dialog {
+.modal-style.popup-login-style .modal-dialog, .modal.popup-search-style .modal-dialog {
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 0 41px 1px rgb(0 0 0 / 46%);
@@ -1109,9 +1103,25 @@ a, button {
   width: 100%;
   height: 50vh;
 }
-
-
-
+.sub-input{
+  position: relative;
+}
+.sub-btn {
+  position: absolute;
+  left: 87%;
+  top: 6.5%;
+}
+.home-view-design{
+  background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/bg-book.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.love-icon{
+  background-color:#FFAD32;
+  width: 60px;
+}
 /* Book Page Design |End */
 
 

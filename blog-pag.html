@@ -65,7 +65,7 @@
           <a class="nav-link ms-md-5 active navber-item-a " aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  mx-md-4 navber-item-a " aria-current="page" href="book-list.html">Book</a>
+          <a class="nav-link  mx-md-4 navber-item-a " aria-current="page" href="book-all.html">Book</a>
         </li>
         <li class="nav-item">
           <a class="nav-link  mx-md-4 navber-item-a " aria-current="page" href="blog-pag.html">Blog</a>
@@ -106,7 +106,7 @@
   </div>
 </nav>
  <!-- Search Modal Start -->
-<div class="modal popup-search-style" id="searchActive">
+<div class="modal modal-style popup-search-style" id="searchActive">
   <button type="button" class="close-btn" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
   <div class="modal-overlay">
     <div class="modal-dialog p-0" role="document">
@@ -124,8 +124,8 @@
     </div>
   </div>
 </div>
-<!-- Search Modal End -->
 <!--===============header End===============-->
+
 
 
 
@@ -135,7 +135,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-8">
         <div class="top-blog-item-hear">
-          <img src="assets/img/dark-img" alt="" class="img-fluid w-100">
+          <img src="assets/img/myImg.jpg" alt="" class="img-fluid w-100" style="height:400px">
           <div class="some-blog-item-hear w-75">
               <button class="btn btn-primary">Pyhton</button>
               <a href="#" class="h2 d-block text-white py-2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</a>
@@ -149,7 +149,7 @@
       </div>
       <div class="col col-sm-6 col-md-4">
           <div class="right-side-blog mt-2 mt-md-0">
-            <img src="assets/img/dark-img" alt="" class="img-fluid w-100">
+            <img src="assets/img/myImg.jpg" alt="" class="img-fluid w-100" style="height: 192px;">
             <div class="right-side-item w-75">
               <a href="#" class="text-white py-0">Programming</a>
                 <a href="#" class="h4 d-block text-white ">Lorem ipsum dolor sit amet.</a>
@@ -161,7 +161,7 @@
               </div>
           </div>
           <div class="right-side-blog mt-2  mt-md-3">
-            <img src="assets/img/dark-img" alt="" class="img-fluid w-100">
+            <img src="assets/img/myImg.jpg" alt="" class="img-fluid w-100" style="height: 192px;">
             <div class="right-side-item w-75">
               <a href="#" class="text-white py-0">Programming</a>
                 <a href="#" class="h4 d-block text-white ">Lorem ipsum dolor sit amet.</a>
@@ -191,9 +191,7 @@
               <span class="text-muted">13 jun 2023 </span>
               <a href="#" class="h5 text-dark d-block">Lorem ipsum dolor sit amet.</a>
               <p class=" my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, praesentium.</p>
-              <p class="my-0 collapse text-dark" id="collapseExample">Reduan test more information Lorem ipsum dolor sit amet.</p>
-              <span class="text-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">More</span>
-              <p>
+
             </div>
             <!-- <a href="#" class="text-dark" >More</a> -->
           </div>
@@ -205,9 +203,9 @@
               <span class="text-muted">13 jun 2023 </span>
               <a href="#" class="h5 text-dark d-block">Lorem ipsum dolor sit amet.</a>
               <p class=" my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, praesentium.</p>
-              <p class="my-0 collapse multi-collapse text-dark" id="collapseExample1">Reduan test more information Lorem ipsum dolor sit amet.</p>
-              <span class="text-dark" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">More</span>
-              <p>
+   
+         
+          
             </div>
             <!-- <a href="#" class="text-dark" >More</a> -->
           </div>
@@ -219,9 +217,7 @@
               <span class="text-muted">13 jun 2023 </span>
               <a href="#" class="h5 text-dark d-block">Lorem ipsum dolor sit amet.</a>
               <p class=" my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, praesentium.</p>
-              <p class="my-0 collapse multi-collapse text-dark" id="collapseExample2">Reduan test more information Lorem ipsum dolor sit amet.</p>
-              <span class="text-dark" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">More</span>
-              <p>
+              
             </div>
             <!-- <a href="#" class="text-dark" >More</a> -->
           </div>
@@ -233,9 +229,7 @@
               <span class="text-muted">13 jun 2023 </span>
               <a href="#" class="h5 text-dark d-block">Lorem ipsum dolor sit amet.</a>
               <p class=" my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, praesentium.</p>
-              <p class="my-0 collapse multi-collapse text-dark" id="collapseExample3">Reduan test more information Lorem ipsum dolor sit amet.</p>
-              <span class="text-dark" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">More</span>
-              <p>
+             
             </div>
             <!-- <a href="#" class="text-dark" >More</a> -->
           </div>
@@ -248,22 +242,6 @@
 
 
 
-<!-- Disply Blog Section start  -->
-<section class="blog_section-start py-5 ">
-  <div class="container">
-    <div class="row " style="background-color:  #eeeeee">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <img src="assets/img/Somoy-News-TV.jpg" alt="" class="img-fluid top_blog_img">
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 ">
-        <p class="text-uppercase mt-3">Hello World</p>
-        <h2 class="text-dark text-upperCase">Hello World This Is Test Messege</h2>
-        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor vitae itaque? Pariatur nisi quibusdam, perspiciatis, quisquam facere nostrum repudiandae culpa repellat consequuntur optio amet beatae quam nemo tempora ipsa voluptate, velit ullam dolor omnis. Architecto delectus maxime tempora a! </p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Disply Blog Section end -->
 
 
 
